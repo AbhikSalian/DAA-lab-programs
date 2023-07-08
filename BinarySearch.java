@@ -5,6 +5,8 @@ public class BinarySearch
    
     public int BSearch(int []a,int low,int high,int key)
     {
+        while(low<high)
+        {
         int mid=(low+high)/2;
         if(a[mid]==key)
         {
@@ -18,9 +20,8 @@ public class BinarySearch
         {
             return BSearch(a,low,mid-1,key);
         }
-        
-            return -1;
-        
+    }
+        return -1;
     }
     
     public static void main(String[] args)
