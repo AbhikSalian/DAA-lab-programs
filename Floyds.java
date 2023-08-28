@@ -13,7 +13,7 @@ public class Floyds
                     dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j]);
                 }
             }
-            System.out.println("distance matrix iteration "+k);
+            System.out.println("Distance matrix iteration "+k);
             for (i = 1; i <= n; i++) {
                 for (j = 1; j <= n; j++) {
                     System.out.print(dist[i][j] + "\t");
@@ -23,7 +23,8 @@ public class Floyds
             System.out.println();
         }
     }
-    static int min(int a, int b) {
+    static int min(int a, int b) 
+    {
         if (a < b) {
             return a;
         } 
