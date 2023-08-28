@@ -62,14 +62,18 @@ public class SumOfSubset {
 		{
 			System.out.println("No subset possible with sum="+d);
 		}
-		else if(flag==1)
+		else if(flag==0)
 		{
 			System.out.println("No subset possible");
 		}
 		else
 		{
-			System.out.println("The subsets with sum="+d+" are ");
+			//System.out.println("The subsets with sum="+d+" are ");
 			sumofsub(0,1);
+			if(flag==1)
+			{
+				System.out.println("No subsets possible");
+			}
 			
 		}
 	}
