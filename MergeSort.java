@@ -78,6 +78,6 @@ long endTime=System.nanoTime();
 double duration=(endTime-startTime)/1000000;
 System.out.println("\n Array After sorting");
 sorter.display();
-System.out.println("\nTime for sorting is"+duration+"milliseconds");
+System.out.println("\nTime for sorting is"+duration+"milliseconds");                                      
 }
 }

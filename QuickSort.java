@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 public class QuickSort
 {
-private int[]a;
+static int[]a;
 void input()
 {
 Scanner sc=new Scanner(System.in);
